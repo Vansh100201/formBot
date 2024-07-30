@@ -1,0 +1,96 @@
+.signup {
+background-color: #121212;
+height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.signup label {
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+}
+.signup input {
+font-size: 14px;
+font-weight: 300;
+line-height: 21px;
+color: #636364;
+padding: 10px;
+border-radius: 12px;
+margin-bottom: 10px;
+}
+.signup .signup-btn {
+background-color: #1a5fff;
+color: #ffffff;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+padding: 10px;
+border: none;
+border-radius: 12px;
+cursor: pointer;
+text-align: center;
+width: 350px;
+margin: 20px 0;
+box-shadow: 0px 4px 10px 0px #e9444b40;
+}
+.signup .signup-text {
+color: #ffffff;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+margin-top: 10px;
+text-align: center;
+}
+.signup .signup-username,.signup .signup-password,.signup .signup-confirmpassword,.signup .signup-email {
+background-color: #121212;
+width: 350px;
+border: 1px solid #636364;
+margin-top: 10px;
+}
+.signup a {
+color: #1a5fff;
+margin-left: 5px;
+text-decoration: none;
+}
+.signup a:hover {
+text-decoration: underline;
+}
+.signup img {
+position: absolute;
+}
+.signup #arrowBack {
+position: absolute;
+top: 40px;
+left: 40px;
+width: 20px;
+height: 20px;
+cursor: pointer;
+}
+.signup #bottomEllipse {
+position: absolute;
+bottom: 0;
+left: 62%;
+}
+.signup #sideEllipse {
+position: absolute;
+right: 0;
+top: 10%;
+}
+.signup #polygon {
+position: absolute;
+top: 25%;
+left: 5%;
+height: 350px;
+width: 350px;
+}
+.error {
+border: 2px solid red;
+background-color: #121212;
+width: 350px;
+}
+.errorMessage,.labelError {
+color: red;
+}
